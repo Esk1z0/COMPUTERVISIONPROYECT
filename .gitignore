@@ -1,6 +1,3 @@
-experiment_results
-model.keras
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -213,3 +210,5 @@ __marimo__/
 #data
 .data/
 data/
+
+model_checkpoints/
