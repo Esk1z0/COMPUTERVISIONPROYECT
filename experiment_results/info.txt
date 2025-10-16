@@ -9,7 +9,7 @@ The Basic/ folder is the one with the results of executing the base example give
 [ffNN Challenge]
 The folders starting with a number are the ones corresponding to the ffNN challenge experiments
     all these folders have the following structure:
-        [number]_[experiment_name]:
+        ffNN/[number]_[experiment_name]/
             model_checkpoints/
             model.keras
     the model_checkpoints/ folder contains all the checkpoints made during the training.
@@ -17,7 +17,7 @@ The folders starting with a number are the ones corresponding to the ffNN challe
 
 [CNN Challenge]
 From now on the experimentation folders will follow this structure:
-    CNN_[number]_[experiment_name]:
+    CNN/[number]_[experiment_name]/
         model_checkpoints/
         results/
             metrics_by_class.csv
