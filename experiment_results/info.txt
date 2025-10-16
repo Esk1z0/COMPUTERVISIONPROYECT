@@ -1,0 +1,30 @@
+The following explains the organization of this folder
+
+[Basic example for the ffNN Challenge]
+The Basic/ folder is the one with the results of executing the base example given by the teachers.
+    this folder contains the model weights with a folder format instead of a *.keras file format
+    except for the Basic/ folder/experiment all the other are saved in a *.keras file format
+    if we load this folder we would get the weights of the model trained with that basic example notebook
+
+[ffNN Challenge]
+The folders starting with a number are the ones corresponding to the ffNN challenge experiments
+    all these folders have the following structure:
+        [number]_[experiment_name]:
+            model_checkpoints/
+            model.keras
+    the model_checkpoints/ folder contains all the checkpoints made during the training.
+    the model.keras file has the weights of the model trained in it's corresponding notebook
+
+[CNN Challenge]
+From now on the experimentation folders will follow this structure:
+    CNN_[number]_[experiment_name]:
+        model_checkpoints/
+        results/
+            metrics_by_class.csv
+            metrics_global.csv
+        model.keras
+    Where model_checkpoints/ is as in the ffNN Challenge
+    Where results/ contains .csv with the metrics of the model
+    Where model.keras is a .keras file with the best model obtained during the training, not just the weights
+
+The model_checkpoints/ folders will mostly be empty as they occupy so much space
