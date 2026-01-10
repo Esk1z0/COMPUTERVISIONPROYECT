@@ -1,0 +1,15 @@
+Experiment,Category,Size,Recall,Precision,Specificity,F1 Score,Accuracy
+TL/02_resnet50_without_tl,Global,1875.0,0.014728205128205128,0.014728205128205128,,,0.07692307692307693
+TL/02_resnet50_without_tl,Building,359.0,1.0,0.19146666666666667,0.0,0.3213965980304387,
+TL/02_resnet50_without_tl,Small car,332.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Truck,221.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Bus,177.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Shipping container,152.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Storage tank,147.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Dump truck,124.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Motorboat,107.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Excavator,79.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Fishing vessel,71.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Cargo plane,64.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Pylon,31.0,0.0,0.0,1.0,0.0,
+TL/02_resnet50_without_tl,Helipad,11.0,0.0,0.0,1.0,0.0,
